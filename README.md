@@ -10,14 +10,14 @@ A simulation consisting of a Master, a dedicated machine to manage the resources
 
 ### **File Description:** <br> 
 1. config.json <br>
-     This is a configuration file of the format <br>
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{ <br>
+     This is a configuration file of the format <br><br>
+     { <br>
           "Workers": [<br>
-          {<br>
-               "worker_id": <worker_id>,<br>
-               "slots": <number of slots>,<br>
-               "port": <port number><br>
-          },<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"worker_id": <worker_id>,<br>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"slots": <number of slots>,<br>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"port": <port number><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},<br>
           {<br>
                "Worker_id": <Worker_id>,<br>
                "slots": <number of slots>,<br>
